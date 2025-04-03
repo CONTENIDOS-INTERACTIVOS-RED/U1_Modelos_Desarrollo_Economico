@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Fundamentos del desarrollo económico'
