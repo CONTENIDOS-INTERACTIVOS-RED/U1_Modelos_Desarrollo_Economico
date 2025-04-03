@@ -245,7 +245,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'Modelos de desarrollo económico',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -254,162 +254,163 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál es el problema central que estudia la economía?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'La gestión de recursos renovables y su impacto ambiental',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'La asignación de recursos escasos para necesidades ilimitadas',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'El desarrollo de infraestructuras y capital financiero en la producción',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'La influencia de la educación y la capacitación en la productividad',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Correcto! La economía se centra en cómo distribuir recursos limitados para cubrir necesidades infinitas, lo que implica tomar decisiones estratégicas y evaluar costos de oportunidad.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Qué representa el valor de un bien o servicio en economía?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'La utilidad o importancia que tiene para la sociedad',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'La cantidad de dinero fijada por el mercado',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'La relación entre demanda y oferta existente',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'El costo total de producción y distribución',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Excelente! El valor refleja la percepción de utilidad que tiene un bien para las personas, lo que puede influir en sus decisiones de consumo.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Qué aspecto caracteriza al factor tierra en la producción económica?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'La disponibilidad ilimitada de todos los recursos naturales',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
+                texto: 'La importancia del suelo agrícola para la producción',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
+                texto: 'La inclusión de recursos naturales renovables y no renovables',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'La regulación gubernamental exclusiva sobre su explotación',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Muy bien! El factor tierra abarca tanto recursos renovables como no renovables, esenciales para la producción de bienes y servicios en diversos sectores de la economía.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Qué caracteriza a las actividades del sector primario en la economía?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'La transformación de materias primas en productos terminados',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto: 'La explotación y obtención de recursos naturales esenciales',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'La comercialización y distribución de bienes manufacturados',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'La prestación de servicios financieros y tecnológicos avanzados',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Correcto! El sector primario es clave en la economía, ya que provee los recursos naturales fundamentales para el desarrollo de otros sectores productivos y el comercio internacional.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿En qué se basa la teoría del valor-trabajo propuesta por David Ricardo?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'En la relación entre oferta y demanda del mercado',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
+                texto: 'En la inversión de renta acumulada en la economía',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'En la influencia de los precios naturales en la producción',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
-                esCorrecta: false,
+                texto: 'En las horas de trabajo requeridas para producir un bien',
+                esCorrecta: true,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_correcto: '¡Correcto! Ricardo estableció que el costo de producción debía calcularse según el tiempo de trabajo necesario, concepto clave en la economía clásica y marxista.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],
         mensaje_final_aprobado:
-          '¡Felicidades! Has superado la prueba con éxito.',
+          '¡Felicitaciones! Has demostrado un buen entendimiento de los conceptos económicos fundamentales.',
         mensaje_final_reprobado:
-          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+          'Te recomendamos repasar los conceptos básicos de economía antes de volver a intentarlo.',
       },
     }
   },
