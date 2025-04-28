@@ -253,33 +253,37 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              '¿Cuál es el problema central que estudia la economía?',
+            texto: '¿Cuál es el problema central que estudia la economía?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'La gestión de recursos renovables y su impacto ambiental',
+                texto:
+                  'La gestión de recursos renovables y su impacto ambiental',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'La asignación de recursos escasos para necesidades ilimitadas',
+                texto:
+                  'La asignación de recursos escasos para necesidades ilimitadas',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'El desarrollo de infraestructuras y capital financiero en la producción',
+                texto:
+                  'El desarrollo de infraestructuras y capital financiero en la producción',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'La influencia de la educación y la capacitación en la productividad',
+                texto:
+                  'La influencia de la educación y la capacitación en la productividad',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Correcto! La economía se centra en cómo distribuir recursos limitados para cubrir necesidades infinitas, lo que implica tomar decisiones estratégicas y evaluar costos de oportunidad.',
+            mensaje_correcto:
+              '¡Correcto! La economía se centra en cómo distribuir recursos limitados para cubrir necesidades infinitas, lo que implica tomar decisiones estratégicas y evaluar costos de oportunidad.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
@@ -310,7 +314,8 @@ export default {
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Excelente! El valor refleja la percepción de utilidad que tiene un bien para las personas, lo que puede influir en sus decisiones de consumo.',
+            mensaje_correcto:
+              '¡Excelente! El valor refleja la percepción de utilidad que tiene un bien para las personas, lo que puede influir en sus decisiones de consumo.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
@@ -322,7 +327,8 @@ export default {
             opciones: [
               {
                 id: 'a',
-                texto: 'La disponibilidad ilimitada de todos los recursos naturales',
+                texto:
+                  'La disponibilidad ilimitada de todos los recursos naturales',
                 esCorrecta: false,
               },
               {
@@ -332,16 +338,19 @@ export default {
               },
               {
                 id: 'c',
-                texto: 'La inclusión de recursos naturales renovables y no renovables',
+                texto:
+                  'La inclusión de recursos naturales renovables y no renovables',
                 esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'La regulación gubernamental exclusiva sobre su explotación',
+                texto:
+                  'La regulación gubernamental exclusiva sobre su explotación',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! El factor tierra abarca tanto recursos renovables como no renovables, esenciales para la producción de bienes y servicios en diversos sectores de la economía.',
+            mensaje_correcto:
+              '¡Muy bien! El factor tierra abarca tanto recursos renovables como no renovables, esenciales para la producción de bienes y servicios en diversos sectores de la economía.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
@@ -353,26 +362,31 @@ export default {
             opciones: [
               {
                 id: 'a',
-                texto: 'La transformación de materias primas en productos terminados',
+                texto:
+                  'La transformación de materias primas en productos terminados',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'La explotación y obtención de recursos naturales esenciales',
+                texto:
+                  'La explotación y obtención de recursos naturales esenciales',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'La comercialización y distribución de bienes manufacturados',
+                texto:
+                  'La comercialización y distribución de bienes manufacturados',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'La prestación de servicios financieros y tecnológicos avanzados',
+                texto:
+                  'La prestación de servicios financieros y tecnológicos avanzados',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Correcto! El sector primario es clave en la economía, ya que provee los recursos naturales fundamentales para el desarrollo de otros sectores productivos y el comercio internacional.',
+            mensaje_correcto:
+              '¡Correcto! El sector primario es clave en la economía, ya que provee los recursos naturales fundamentales para el desarrollo de otros sectores productivos y el comercio internacional.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
           {
@@ -394,16 +408,19 @@ export default {
               },
               {
                 id: 'c',
-                texto: 'En la influencia de los precios naturales en la producción',
+                texto:
+                  'En la influencia de los precios naturales en la producción',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'En las horas de trabajo requeridas para producir un bien',
+                texto:
+                  'En las horas de trabajo requeridas para producir un bien',
                 esCorrecta: true,
               },
             ],
-            mensaje_correcto: '¡Correcto! Ricardo estableció que el costo de producción debía calcularse según el tiempo de trabajo necesario, concepto clave en la economía clásica y marxista.',
+            mensaje_correcto:
+              '¡Correcto! Ricardo estableció que el costo de producción debía calcularse según el tiempo de trabajo necesario, concepto clave en la economía clásica y marxista.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
         ],
