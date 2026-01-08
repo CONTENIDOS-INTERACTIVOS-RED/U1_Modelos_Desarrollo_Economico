@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <filter id="Rectangle_401338" x="0" y="0" width="66" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icono_Cuadrado" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_401338)">
+      <rect id="Rectangle_401338-2" data-name="Rectangle 401338" width="48" height="48" transform="translate(9 6)" fill="#fcdfdb"/>
+    </g>
+    <path id="Path_874071" data-name="Path 874071" d="M64.666,41.159a1.072,1.072,0,0,1-1.072,1.072H60.377v2.145h2.145a1.072,1.072,0,1,1,0,2.145H60.377v2.145a1.072,1.072,0,0,1-2.145,0V41.159A1.072,1.072,0,0,1,59.3,40.087h4.29A1.072,1.072,0,0,1,64.666,41.159Zm-17.7,2.681a3.754,3.754,0,0,1-3.754,3.754H42.145v1.072a1.072,1.072,0,0,1-2.145,0V41.159a1.072,1.072,0,0,1,1.072-1.072h2.145a3.754,3.754,0,0,1,3.754,3.754Zm-2.145,0a1.609,1.609,0,0,0-1.609-1.609H42.145v3.217h1.072A1.609,1.609,0,0,0,44.826,43.84Zm11.8,1.072A4.826,4.826,0,0,1,51.8,49.739H49.652a1.072,1.072,0,0,1-1.072-1.072V41.159a1.072,1.072,0,0,1,1.072-1.072H51.8A4.826,4.826,0,0,1,56.623,44.913Zm-2.145,0A2.681,2.681,0,0,0,51.8,42.232H50.724v5.362H51.8A2.681,2.681,0,0,0,54.478,44.913ZM40,35.8V26.145A2.145,2.145,0,0,1,42.145,24H55.014a1.072,1.072,0,0,1,.759.314l7.507,7.507a1.072,1.072,0,0,1,.314.759V35.8a1.072,1.072,0,1,1-2.145,0V33.652H55.014a1.072,1.072,0,0,1-1.072-1.072V26.145h-11.8V35.8A1.072,1.072,0,0,1,40,35.8Zm16.087-4.29h3.846l-3.846-3.846Z" transform="translate(-28.333 -12.869)" fill="#f15642"/>
+  </g>
+</svg>
