@@ -24,7 +24,7 @@
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
               p.descripcion.mb-4 Desde sus inicios, las sociedades han buscado estrategias para fomentar el crecimiento y mejorar la calidad de vida de sus ciudadanos. El desarrollo económico no solo se enfoca en el aumento de la producción, sino también en la distribución de los recursos, la equidad social y la sostenibilidad. En esta primera unidad, se explorarán los fundamentos del desarrollo económico, su relación con los factores de producción y los modelos teóricos que han guiado las políticas económicas a nivel mundial.
 
-              p #[b ¡Prepárese para comprender los desafíos del desarrollo económico y su impacto en l sociedad actual!]
+              p #[b ¡Prepárese para comprender los desafíos del desarrollo económico y su impacto en la sociedad actual!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

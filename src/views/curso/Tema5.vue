@@ -95,16 +95,16 @@
         .col-12.col-lg-7
           AcordionA(tipo="b")
             .div(titulo="Demanda agregada como motor del crecimiento")(data-aos="fade-up")
-              p o	Keynes planteó que el nivel de producción y empleo, dependen principalmente del gasto total en la economía.<br>o	Cuando la demanda agregada es baja, se generan desempleo y recesión.
+              p •	Keynes planteó que el nivel de producción y empleo, dependen principalmente del gasto total en la economía.<br>•	Cuando la demanda agregada es baja, se generan desempleo y recesión.
 
             .div(titulo="Intervención del Estado en la economía")(data-aos="fade-up")
-              p o	Propuso que el Estado juegue un papel activo regulando la economía a través de políticas fiscales (gasto público e impuestos) y monetarias.<br>o	En tiempos de crisis, el gobierno debe aumentar el gasto público para estimular la demanda y generar empleo.
+              p •	Propuso que el Estado juegue un papel activo regulando la economía a través de políticas fiscales (gasto público e impuestos) y monetarias.<br>•	En tiempos de crisis, el gobierno debe aumentar el gasto público para estimular la demanda y generar empleo.
 
             .div(titulo="El principio de la propensión marginal al consumo")(data-aos="fade-up")
-              p o	Keynes estableció que los individuos tienden a gastar una parte de su ingreso y a ahorrar otra.<br>o	Si el ahorro es excesivo, puede reducir la demanda y frenar el crecimiento económico.
+              p •	Keynes estableció que los individuos tienden a gastar una parte de su ingreso y a ahorrar otra.<br>•	Si el ahorro es excesivo, puede reducir la demanda y frenar el crecimiento económico.
 
             .div(titulo="Política fiscal como herramienta para estabilizar la economía")(data-aos="fade-up")
-              p o	Defendió el uso del gasto público y la reducción de impuestos, como estrategias para estimular la economía en épocas de recesión.<br>o	En periodos de crecimiento, recomendó aumentar impuestos y reducir el gasto para evitar el sobrecalentamiento económico.
+              p •	Defendió el uso del gasto público y la reducción de impuestos, como estrategias para estimular la economía en épocas de recesión.<br>•	En periodos de crecimiento, recomendó aumentar impuestos y reducir el gasto para evitar el sobrecalentamiento económico.
 
         .col-12.col-lg-5.d-none.d-lg-block(data-aos="zoom-in")
           img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
